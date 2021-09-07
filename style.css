@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: center/cover no-repeat url("bg2.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 35vw;
+    height: 45vh;
+    position: absolute;
+    left: 80vh;
+    padding: 10px;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .box h1{
+    color: white;
+    border-bottom: 5px solid rgb(169 11 169);;
+    margin-bottom: 3vh;
+    width: 53%;
+    padding: 1.5vh 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container .box .form .email{
+    border-bottom: 2px solid rgb(169,11,169);;
+    margin-bottom: 2vh;
+    padding: 0.5vh 0;
+}
+
+.container .box .form .email input{
+    width: 95%;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.container .box .form .email i{
+    color: white;
+    text-align: center;
+}
+
+
+.container .box .form .password{
+    border-bottom: 2px solid rgb(169,11,169);;
+    margin-bottom: 2vh;
+    padding: 0.5vh 0;
+}
+
+.container .box .form .password input{
+    width: 95%;
+    height: 25px;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.container .box .form .password i{
+    color: white;
+    text-align: center;
+}
+
+.btn{
+    width: 6vw;
+    height: 5vh;
+    border: 2px solid rgb(169,11,169);
+    outline: none;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.btn:hover{
+    background: rgb(169,11,169);
+}
